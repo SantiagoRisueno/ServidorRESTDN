@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_EurekaBank_REST", "WS_EurekaBank_REST\WS_EurekaBank_REST.csproj", "{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_EurekaBank_REST_Test", "WS_EurekaBank_REST_Test\WS_EurekaBank_REST_Test.csproj", "{D1E749B1-FD6B-4079-B1C4-326A172EE654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E749B1-FD6B-4079-B1C4-326A172EE654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E749B1-FD6B-4079-B1C4-326A172EE654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E749B1-FD6B-4079-B1C4-326A172EE654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E749B1-FD6B-4079-B1C4-326A172EE654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

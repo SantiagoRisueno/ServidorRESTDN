@@ -18,8 +18,9 @@ namespace WS_EurekaBank_REST.Models
         public EUREKABANKEntities()
             : base("name=EUREKABANKEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
